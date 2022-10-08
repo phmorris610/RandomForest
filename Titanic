@@ -116,3 +116,7 @@ ax.set_xticks(hyp_param_vals)
 ax.set(xlabel="min samples to split", ylabel="loss (lower is better)")
 plt.show()
 #
+# mse: 0.0206
+# manual calc of bce: 83.2701
+# binary cross entropy w/ sklearn: 83.2701
+# As we can see the best hyperparameter is 39
